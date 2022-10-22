@@ -1,0 +1,60 @@
+/* default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9e9e9e;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    box-shadow: 2px 2px 2px #000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url(../bgimages/1.jpg);
+    height: 100vh;
+}
+
+.bg-2 {
+    background-image: url(../bgimages/2.jpg);
+    height: 100vh;
+}
+
+.bg-3 {
+    background-image: url(../bgimages/3.png);
+    height: 100vh;
+}
+
+.bg-4 {
+    background-image: url(../bgimages/4.jpg);
+    height: 100vh;
+}
+
+.bg-5 {
+    background-image: url(../bgimages/5.jpg);
+    height: 100vh;
+}
